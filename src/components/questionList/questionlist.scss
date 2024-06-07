@@ -1,0 +1,31 @@
+.question {
+  &-item {
+    height: 3rem;
+    width: auto;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  &-circle {
+    margin: 0 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    border: 2px solid black;
+    &-border {
+      border: 2px solid green;
+    }
+  }
+  &-background {
+    background-color: rgb(207, 236, 229);
+  }
+}
+.correct {
+  background-color: green;
+}
+.circle {
+  border: 1px solid white;
+}
