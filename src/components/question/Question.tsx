@@ -62,7 +62,9 @@ export const Question = ({
   return (
     <Container
       className="question-container"
-      width="25rem"
+      display="flex"
+      flexDir="column"
+      alignItems="center"
       height="100%"
       padding="2rem"
       backgroundColor="grey"
