@@ -63,6 +63,7 @@ export const Question = ({
     <Container
       className="question-container"
       width="25rem"
+      height="100%"
       padding="2rem"
       backgroundColor="grey"
       boxShadow="md"
