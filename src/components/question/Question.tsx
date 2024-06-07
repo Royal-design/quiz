@@ -40,6 +40,7 @@ export const Question = ({
       setResult({ score: result.score + 1 });
     }
   };
+  console.log(option);
 
   const btnNextClick = () => {
     if (currentQuestion !== data.length - 1) {
@@ -61,7 +62,7 @@ export const Question = ({
   return (
     <Container
       className="question-container"
-      width="40rem"
+      width="25rem"
       padding="2rem"
       backgroundColor="grey"
       boxShadow="md"

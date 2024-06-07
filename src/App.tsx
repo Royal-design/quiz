@@ -4,7 +4,7 @@ import { Question } from "./components/question/Question";
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const { data, error, isLoading } = useQuizHook();
+  const { data } = useQuizHook();
   let content;
 
   if (data) {
